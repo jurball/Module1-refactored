@@ -11,7 +11,7 @@ footer {
 }
 
 header {
-    padding: 0px 30px;
+    padding: 15px 30px;
     display: flex;
 }
 
@@ -20,10 +20,12 @@ nav {
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
-    max-width: 1200px;
 }
 
-
+header nav {
+    align-items: center;
+    max-width: 1200px;
+}
 
 header ul {
     display: flex;
@@ -33,7 +35,7 @@ header ul {
 footer {
     display: flex;
     align-items: center;
-    padding: 0 30px;
+    padding: 100px 30px 40px 30px;
 }
 
 footer nav {
@@ -41,7 +43,8 @@ footer nav {
 }
 
 footer nav h1 {
-    margin: auto 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 footer nav ul > li {
@@ -51,7 +54,7 @@ footer nav ul > li {
 @media screen and (max-width: 768px) {
     header,
     footer {
-        padding: 15px 0px;
+        padding: 20px 0px;
         text-align: center;
     }
 
@@ -65,6 +68,11 @@ footer nav ul > li {
     }
     
     footer {
-        text-align: center;
+        padding-top: 90px;
+    }
+
+    footer nav h1 {
+        display: block;
+        margin-bottom: 35px;
     }
 }
