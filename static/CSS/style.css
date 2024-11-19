@@ -4,6 +4,11 @@
     list-style: none;
 }
 
+.content {
+    text-align: center;
+    padding: 70px 30px;
+}
+
 header,
 footer {
     background-color: black;
@@ -13,6 +18,10 @@ footer {
 header {
     padding: 15px 30px;
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
 }
 
 nav {
@@ -25,11 +34,16 @@ nav {
 header nav {
     align-items: center;
     max-width: 1200px;
+
 }
 
 header ul {
     display: flex;
     gap: 35px;
+}
+
+main {
+    height: 200vh;
 }
 
 footer {
