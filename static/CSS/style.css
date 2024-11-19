@@ -10,6 +10,16 @@
     background-color: rgba(0, 0, 0, 0.089);
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.active:hover {
+    color: rgb(199, 199, 199);
+    text-decoration: underline;
+}
+
 header,
 footer {
     background-color: black;
@@ -17,7 +27,7 @@ footer {
 }
 
 header {
-    padding: 15px 30px;
+    padding: 15px 63px;
     display: flex;
     position: sticky;
     top: 0;
