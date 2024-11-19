@@ -23,6 +23,8 @@ nav {
     max-width: 1200px;
 }
 
+
+
 header ul {
     display: flex;
     gap: 35px;
@@ -50,9 +52,6 @@ footer nav ul > li {
     header,
     footer {
         padding: 15px 0px;
-    }
-
-    header {
         text-align: center;
     }
 
